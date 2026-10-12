@@ -1,0 +1,13 @@
+{
+  "name": "nexus-campus-frontend",
+  "version": "1.0.0",
+  "description": "NEXUS CAMPUS — Intelligent Campus OS Frontend (Hosted on Google Firebase)",
+  "scripts": {
+    "login": "npx firebase-tools login",
+    "deploy": "npx firebase-tools deploy --only hosting",
+    "serve": "npx firebase-tools serve"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.33.0"
+  }
+}
